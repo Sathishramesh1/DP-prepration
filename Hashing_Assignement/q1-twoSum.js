@@ -2,7 +2,7 @@
 
 
 //solution
-var twoSum = function(nums, target) {
+const twoSum = function(nums, target) {
     const count=new Map();
     const length=nums.length
     for(let i=0;i<length;i++){
